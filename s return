@@ -1,0 +1,202 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 3e2fd54..697f921 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -27,10 +27,10 @@[m
+                     <a class="nav-link" href="#shoes">Shoes</a>[m
+                   </li>[m
+                   <li class="nav-item">[m
+[31m-                    <a class="nav-link" href="#backpack">Backpack</a>[m
+[32m+[m[32m                    <a class="nav-link" href="#Backpack">Backpack</a>[m
+                   </li>[m
+                   <li class="nav-item">[m
+[31m-                    <a class="nav-link" href="#Contact">Contact us</a>[m
+[32m+[m[32m                    <a class="nav-link" href="#contact">Contact us</a>[m
+                   </li>[m
+                 </ul>[m
+               </div>[m
+[36m@@ -90,7 +90,126 @@[m
+         </button>[m
+       </div>[m
+  </div>[m
+[31m-   [m
+[32m+[m[32m   <div class="container categories">[m
+[32m+[m[32m      <div class="row">[m
+[32m+[m[32m        <div class="col-md-4">[m
+[32m+[m[32m         <div class="cat-1 d-flex justify-content-between  align-items-center">[m
+[32m+[m[32m          <h1>Watch</h1>[m
+[32m+[m[32m          <img src="./images/categories/watch.png" alt="">[m
+[32m+[m[32m         </div>[m
+[32m+[m[41m    [m
+[32m+[m[32m        </div>[m
+[32m+[m[32m        <div class="col-md-4">[m
+[32m+[m[32m          <div class="cat-2 d-flex justify-content-between  align-items-center">[m
+[32m+[m[32m            <h1>Bag</h1>[m
+[32m+[m[32m          <img src="./images/categories/bag.png" alt="">[m
+[32m+[m[32m          </div>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m        <div class="col-md-4">[m
+[32m+[m[32m         <div class="cat-3 d-flex justify-content-between  align-items-center">[m
+[32m+[m[32m          <h1>Shoes</h1>[m
+[32m+[m[32m          <img src="./images/categories/shoes.png" alt="">[m
+[32m+[m[32m         </div>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m   </div>[m
+[32m+[m[32m   <div class="container shoes" id="shoes">[m
+[32m+[m[32m    <div class="row row-cols-1 row-cols-md-3 g-4">[m
+[32m+[m[32m      <div class="col">[m
+[32m+[m[32m        <div class="card h-100">[m
+[32m+[m[32m          <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">[m
+[32m+[m[32m          <div class="card-body">[m
+[32m+[m[32m            <h5 class="card-title">Supply 350</h5>[m
+[32m+[m[32m            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>[m
+[32m+[m[32m            <h5>$120</h5>[m
+[32m+[m[32m            <button class="buy-now-button">Buy now>></button>[m
+[32m+[m[32m          </div>[m
+[32m+[m[41m         [m
+[32m+[m[32m        </div>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m      <div class="col">[m
+[32m+[m[32m        <div class="card h-100">[m
+[32m+[m[32m          <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">[m
+[32m+[m[32m          <div class="card-body">[m
+[32m+[m[32m            <h5 class="card-title">Nike 360</h5>[m
+[32m+[m[32m            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>[m
+[32m+[m[32m            <h5>$320</h5>[m
+[32m+[m[32m            <button class="buy-now-button">Buy now>></button>[m
+[32m+[m[32m          </div>[m
+[32m+[m[41m          [m
+[32m+[m[32m        </div>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m      <div class="col">[m
+[32m+[m[32m        <div class="card h-100">[m
+[32m+[m[32m          <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">[m
+[32m+[m[32m          <div class="card-body">[m
+[32m+[m[32m            <h5 class="card-title">Red Airmax</h5>[m
+[32m+[m[32m            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>[m
+[32m+[m[32m            <h5>$350</h5>[m
+[32m+[m[32m            <button class="buy-now-button">Buy now>></button>[m
+[32m+[m[32m          </div>[m
+[32m+[m[41m          [m
+[32m+[m[32m        </div>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m    </div>[m
+[32m+[m[32m   </div>[m
+[32m+[m[32m   <div class="container" id="Backpack">[m
+[32m+[m[32m     <h3>Backpack</h3>[m
+[32m+[m[32m     <div class="row row-cols-1 row-cols-md-3 g-4">[m
+[32m+[m[32m      <div class="col">[m
+[32m+[m[32m        <div class="card h-100">[m
+[32m+[m[32m          <img src="images/bags/bag-1.png" class="card-img-top" alt="...">[m
+[32m+[m[32m          <div class="card-body">[m
+[32m+[m[32m            <h5 class="card-title">Red Bag</h5>[m
+[32m+[m[32m            <h5>$120</h5>[m
+[32m+[m[32m            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>[m
+[32m+[m[32m          </div>[m
+[32m+[m[32m          <div class="card-footer">[m
+[32m+[m[32m            <button class="buy-now-button">Buy now</button>[m
+[32m+[m[32m          </div>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m      <div class="col">[m
+[32m+[m[32m        <div class="card h-100">[m
+[32m+[m[32m          <img src="images/bags/bag-2.png" class="card-img-top" alt="...">[m
+[32m+[m[32m          <div class="card-body">[m
+[32m+[m[32m            <h5 class="card-title">Blue Bag</h5>[m
+[32m+[m[32m            <h5>$325</h5>[m
+[32m+[m[32m            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>[m
+[32m+[m[32m          </div>[m
+[32m+[m[32m          <div class="card-footer">[m
+[32m+[m[32m            <button class="buy-now-button">Buy now</button>[m
+[32m+[m[32m          </div>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m      <div class="col">[m
+[32m+[m[32m        <div class="card h-100">[m
+[32m+[m[32m          <img src="images/bags/bag-3.png" class="card-img-top" alt="...">[m
+[32m+[m[32m          <div class="card-body">[m
+[32m+[m[32m            <h5 class="card-title">Black Bag</h5>[m
+[32m+[m[32m            <h5>$169</h5>[m
+[32m+[m[32m            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>[m
+[32m+[m[32m          </div>[m
+[32m+[m[32m          <div class="card-footer">[m
+[32m+[m[32m            <button class="buy-now-button">Buy now</button>[m
+[32m+[m[32m          </div>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m    </div>[m
+[32m+[m[32m   </div>[m
+[32m+[m[32m   <div class="container d-flex justify-content-center align-items-center orange-bg" id="contact">[m
+[32m+[m[32m    <div>[m
+[32m+[m[32m      <h5>LET'S STAY IN TOUCH</h5>[m
+[32m+[m[32m      <h6>Get updates on sales,special and more.</h6>[m
+[32m+[m[32m      <input class="form-control" type="text" name="" id="">[m
+[32m+[m[32m      <button class="buy-now-button">submit</button>[m
+[32m+[m[32m     </div>[m
+[32m+[m[32m   </div>[m
+[32m+[m[32m   <footer>[m
+[32m+[m[32m     <p>©Panda Commerce.All right reserved.</p>[m
+[32m+[m[32m   </footer>[m
+[32m+[m
+[32m+[m[41m  [m
+    [m
+    [m
+    [m
+[1mdiff --git a/style.css b/style.css[m
+[1mindex ec93901..4722441 100644[m
+[1m--- a/style.css[m
+[1m+++ b/style.css[m
+[36m@@ -18,4 +18,51 @@[m
+     border-radius: 8px;[m
+     padding: 9px 25px;[m
+     cursor: pointer;[m
+[32m+[m[32m}[m
+[32m+[m[32m.cat-1{[m
+[32m+[m[32m    background-color: orange;[m
+[32m+[m[32m}[m
+[32m+[m[32m.cat-2{[m
+[32m+[m[32m    background-color: orchid;[m
+[32m+[m[32m}[m
+[32m+[m[32m.cat-3{[m
+[32m+[m[32m    background-color: blue;[m
+[32m+[m[32m}[m
+[32m+[m[32m.cat-1, .cat-2, .cat-3{[m
+[32m+[m[32m    padding: 10px 30px;[m
+[32m+[m[32m    border-radius: 10px;[m
+[32m+[m[32m}[m
+[32m+[m[32m.categories h1{[m
+[32m+[m[32m    color: white;[m
+[32m+[m[32m}[m
+[32m+[m[32m.categories img{[m
+[32m+[m[32m    width: 100px;[m
+[32m+[m[32m}[m
+[32m+[m[32m.card{[m
+[32m+[m[32m    border: none;[m
+[32m+[m[32m    border-radius: 10px;[m
+[32m+[m[32m    box-shadow: 5px 5px 10px lightgray;[m
+[32m+[m[32m}[m
+[32m+[m[32m.card-footer{[m
+[32m+[m[32m    background-color: white;[m
+[32m+[m[32m    border-top: none;[m
+[32m+[m[32m}[m
+[32m+[m[32m#contact{[m
+[32m+[m[32m    height: 300px;[m
+[32m+[m[32m}[m
+[32m+[m[32m#contact h6{[m
+[32m+[m[32m    color: gray;[m
+[32m+[m[32m    display: block;[m
+[32m+[m[32m    font-size: 0.67em;[m
+[32m+[m[32m    /* margin-block-start: 2.33em; */[m
+[32m+[m[32m    /* margin-block-end: 2.33em; */[m
+[32m+[m[32m    /* margin-inline-start: 0px; */[m
+[32m+[m[32m    /* margin-inline-end: 0px; */[m
+[32m+[m[32m    font-weight: bold;[m
+[32m+[m[32m}[m
+[32m+[m[32m#contact button{[m
+[32m+[m[32m    margin-top: 10px;[m
+[32m+[m[32m}[m
+[32m+[m[32mfooter{[m
+[32m+[m[32m    text-align: center;[m
+ }[m
+\ No newline at end of file[m
